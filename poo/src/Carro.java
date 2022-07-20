@@ -11,6 +11,10 @@ public class Carro {
     this.capacidadeDoTanque = capacidadeDoTanque;
   }
 
+  public double fullTankValue (double fuelValue) {
+    return getCapacidadeDoTanque() * fuelValue;
+  }
+
   public String getCor() {
     return cor;
   }
