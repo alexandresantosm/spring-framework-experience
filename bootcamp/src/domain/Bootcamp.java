@@ -51,10 +51,6 @@ public class Bootcamp {
     return contents;
   }
 
-  public void setContents(Set<Content> contents) {
-    this.contents = contents;
-  }
-
   @Override
   public int hashCode() {
     return Objects.hash(
